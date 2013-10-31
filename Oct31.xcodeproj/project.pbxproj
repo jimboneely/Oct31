@@ -22,9 +22,9 @@
 		2912C00E1822EFFF00C1BECA /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2912C00D1822EFFF00C1BECA /* BigView.m */; };
 		2912C0111822F04300C1BECA /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 2912C0101822F04300C1BECA /* LittleView0.m */; };
 		2912C0141822F07E00C1BECA /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2912C0131822F07E00C1BECA /* LittleView1.m */; };
-		2912C0161822F0CA00C1BECA /* goofy-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2912C0151822F0CA00C1BECA /* goofy-2.png */; };
-		2912C0181822F0D600C1BECA /* Goofy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2912C0171822F0D600C1BECA /* Goofy.mp3 */; };
 		2912C01A1822F12400C1BECA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2912C0191822F12400C1BECA /* AudioToolbox.framework */; };
+		2955258F1823183600C49C27 /* goofy-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2955258E1823183600C49C27 /* goofy-2.png */; };
+		295525911823184100C49C27 /* Goofy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 295525901823184100C49C27 /* Goofy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +60,9 @@
 		2912C0101822F04300C1BECA /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = "<group>"; };
 		2912C0121822F07D00C1BECA /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = "<group>"; };
 		2912C0131822F07E00C1BECA /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = "<group>"; };
-		2912C0151822F0CA00C1BECA /* goofy-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goofy-2.png"; path = "../../../Downloads/goofy-2.png"; sourceTree = "<group>"; };
-		2912C0171822F0D600C1BECA /* Goofy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Goofy.mp3; path = ../../../Downloads/Goofy.mp3; sourceTree = "<group>"; };
 		2912C0191822F12400C1BECA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2955258E1823183600C49C27 /* goofy-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goofy-2.png"; sourceTree = "<group>"; };
+		295525901823184100C49C27 /* Goofy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Goofy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 		2912BFE41822EF8600C1BECA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2912C0171822F0D600C1BECA /* Goofy.mp3 */,
-				2912C0151822F0CA00C1BECA /* goofy-2.png */,
+				295525901823184100C49C27 /* Goofy.mp3 */,
+				2955258E1823183600C49C27 /* goofy-2.png */,
 				2912BFE51822EF8600C1BECA /* Oct31-Info.plist */,
 				2912BFE61822EF8600C1BECA /* InfoPlist.strings */,
 				2912BFE91822EF8600C1BECA /* main.m */,
@@ -246,9 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2912BFE81822EF8600C1BECA /* InfoPlist.strings in Resources */,
-				2912C0161822F0CA00C1BECA /* goofy-2.png in Resources */,
+				2955258F1823183600C49C27 /* goofy-2.png in Resources */,
 				2912BFF01822EF8600C1BECA /* Images.xcassets in Resources */,
-				2912C0181822F0D600C1BECA /* Goofy.mp3 in Resources */,
+				295525911823184100C49C27 /* Goofy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +472,7 @@
 				2912C0081822EF8600C1BECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2912C0091822EF8600C1BECA /* Build configuration list for PBXNativeTarget "Oct31Tests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				2912C00B1822EF8600C1BECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
